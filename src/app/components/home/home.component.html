@@ -1,0 +1,39 @@
+<div class="filters">
+  <mat-form-field>
+    <mat-label>Ordenar</mat-label>
+    <mat-select
+      panelClass="sort-select"
+      [(ngModel)]="sort"
+    >
+      <mat-option value="name">Nombre</mat-option>
+      <mat-option value="-released">Publicado</mat-option>
+      <mat-option value="-added">Agregado</mat-option>
+      <mat-option value="-created">Creado</mat-option>
+      <mat-option value="-updated">Actualizado</mat-option>
+      <mat-option value="-rating">Rating</mat-option>
+      <mat-option value="-metacritic">Metacritic</mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>
+
+<div class="games">
+  <div class="game">
+    <div class="game-thumb-container">
+      <img
+        src="https://assets.reedpopcdn.com/gta-1621612236056.jpg/BROK/resize/1200x1200%3E/format/jpg/quality/70/gta-1621612236056.jpg"
+        alt="thumbnail"
+        class="game-thumbnail"
+      />
+    </div>
+    <div class="game-description">
+      <p class="game-name">Nombre</p>
+      <div class="game-platforms">
+        <img
+          class="game-platform"
+          src="https://cdn-icons-png.flaticon.com/512/1/1321.png"
+        />
+      </div>
+    </div>
+  </div>
+
+</div>
