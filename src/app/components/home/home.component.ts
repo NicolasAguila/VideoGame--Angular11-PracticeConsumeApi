@@ -35,5 +35,5 @@ export class HomeComponent implements OnInit {
       });
   }
 }
-
+// cambiar ciertas cosas de este proyecto y componente
 
